@@ -1,5 +1,6 @@
 import express from "express";
 import fileupload from 'express-fileupload';
+import { AWS } from '../config';
 
 const PORT = 3000;
 

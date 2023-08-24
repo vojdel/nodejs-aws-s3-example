@@ -1,0 +1,13 @@
+POST http://localhost:3000/files HTTP/1.1
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="//home/daisho/Imágenes/Backgrounds/beautiful-evelynn-art-lol-4k-wallpaper-uhdpaper.com-348@1@i.jpg"
+Content-Type: image/jpg
+
+< //home/daisho/Imágenes/Backgrounds/beautiful-evelynn-art-lol-4k-wallpaper-uhdpaper.com-348@1@i.jpg
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="name"
+
+Evelynn
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
